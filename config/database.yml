@@ -27,5 +27,5 @@ production:
   pool: 5
   database: test_render_66fz
   username: test_render_66fz_user
-  password: <%= ENV['W4JzhCuVSiJbtSGNPVkIbZSXd7SrKUyw'] %>
-  url: <%= ENV['postgresql://test_render_66fz_user:W4JzhCuVSiJbtSGNPVkIbZSXd7SrKUyw@dpg-crug08rv2p9s73eqqq0g-a/test_render_66fz'] %>
+  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
